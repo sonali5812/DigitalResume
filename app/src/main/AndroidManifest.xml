@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sonali.resume">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/download"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/download"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Education_Qualification"
+            android:label="@string/title_activity_eduaction" />
+        <activity
+            android:name=".Contact_Details"
+            android:label="@string/title_activity_contactdetails" />
+        <activity android:name=".Extra_Activities" />
+        <activity android:name=".Intenships_and_Projects"></activity>
+    </application>
+
+</manifest>

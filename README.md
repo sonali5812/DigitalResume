@@ -1,2 +1,3 @@
-# MyResumeApp
-This is my resume app created in android studio containing introduction,contact details(one can directly call or send email),educatonal qualification,extra activities and skills,internships and projects etc.
+# DigitalResume
+This is an android app containing introduction,educational qualification,skills ,projects and contact details of a person.
+One who is using that app can directly call or send email to that person by selecting the options(button).
